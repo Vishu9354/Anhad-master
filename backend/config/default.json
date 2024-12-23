@@ -1,0 +1,33 @@
+{
+    "host": "localhost",
+    "port": 8080,
+    "public": "../public/",
+    "paginate": {
+        "default": 10,
+        "max": 50
+    },
+    "sqlite": "sqlite://anhad_backend.sqlite",
+    "google-cloud-storage": {
+        "secret": {
+            "type": "type",
+            "project_id": "id",
+            "private_key_id": "id",
+            "private_key": "key",
+            "client_email": "email",
+            "client_id": "client_id",
+            "auth_uri": "auth_uri",
+            "token_uri": "token_uri",
+            "auth_provider_x509_cert_url": "url",
+            "client_x509_cert_url": "url",
+            "universe_domain": "domain"
+        },
+        "bucket": "bucket"
+    },
+    "nodemailer": {
+        "user": "anhad@iitjammu.ac.in",
+        "pass": "pass"
+    },
+    "rzp_key_id": "id",
+    "rzp_key_secret": "secret",
+    "ticket_base_url": "https://anhad.ac/ticket"
+}
